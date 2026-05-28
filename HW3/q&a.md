@@ -1,7 +1,5 @@
 # Homework 3 Q&A
 
----
-
 # 1. Java Access Modifiers / Scope
 
 ## Access Modifier Table
