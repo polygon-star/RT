@@ -17,7 +17,7 @@ public class PatientService {
     public PatientResponseDto getById(Long id) {
         Patient patient = repo.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Patient not found: " + id));
-        return toResponseDto(patient);  // ← 返回 DTO，不返回 Entity
+        return toResponseDto(patient);  // ← return DTO not Entity
     }
 
     @Transactional
